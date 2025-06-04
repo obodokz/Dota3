@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Dota3",
+			"Path": "..\\Source\\Dota3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Dota3Editor",
+			"Path": "..\\Source\\Dota3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
