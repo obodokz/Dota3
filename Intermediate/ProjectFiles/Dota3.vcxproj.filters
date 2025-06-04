@@ -11,6 +11,8 @@
     <None Include="..\..\Source\Dota3Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +39,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Dota3\Dota3.h">
       <Filter>Source\Dota3</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota3\Private">
+      <UniqueIdentifier>{03E83523-5B14-3D44-B454-46DF58C56DA0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota3\Private\ParentCharacter.cpp">
+      <Filter>Source\Dota3\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Dota3\Public">
+      <UniqueIdentifier>{4524ED4F-EBFC-3104-949B-B58FE5829E3B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota3\Public\ParentCharacter.h">
+      <Filter>Source\Dota3\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
