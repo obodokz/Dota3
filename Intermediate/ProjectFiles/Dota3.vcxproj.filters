@@ -43,14 +43,26 @@
     <Filter Include="Source\Dota3\Private">
       <UniqueIdentifier>{03E83523-5B14-3D44-B454-46DF58C56DA0}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Dota3\Private\ParentCharacter.cpp">
-      <Filter>Source\Dota3\Private</Filter>
+    <Filter Include="Source\Dota3\Private\Character">
+      <UniqueIdentifier>{2027D98C-92E2-3DC3-B5AF-AEEFA3560ABC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota3\Private\Character\ParentCharacter.cpp">
+      <Filter>Source\Dota3\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota3\Private\Character\WizardChar.cpp">
+      <Filter>Source\Dota3\Private\Character</Filter>
     </ClCompile>
     <Filter Include="Source\Dota3\Public">
       <UniqueIdentifier>{4524ED4F-EBFC-3104-949B-B58FE5829E3B}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Dota3\Public\ParentCharacter.h">
-      <Filter>Source\Dota3\Public</Filter>
+    <Filter Include="Source\Dota3\Public\Character">
+      <UniqueIdentifier>{4697B18F-8B48-3462-9EA5-29EEC564D0F8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Dota3\Public\Character\ParentCharacter.h">
+      <Filter>Source\Dota3\Public\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dota3\Public\Character\WizardChar.h">
+      <Filter>Source\Dota3\Public\Character</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
